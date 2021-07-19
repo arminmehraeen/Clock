@@ -1,5 +1,5 @@
 # Clock
 Seven Segment Clock with JavaFx
 <div>
-  <img src="https://github.com/arminmehraeen/Clock/blob/main/Photos/img.png" width="100">
+  <img src="https://github.com/arminmehraeen/Clock/blob/main/Photos/img.png" width="250" heght="250">
 </div>
