@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<BorderPane prefHeight="339.0" prefWidth="83.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SevenSegmentController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="339.0" prefWidth="181.0" BorderPane.alignment="CENTER">
+         <children>
+            <Group layoutX="27.0" layoutY="80.0">
+               <children>
+                  <Rectangle fx:id="f" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="100.0" layoutX="-1.0" layoutY="-12.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+                  <Rectangle fx:id="e" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="100.0" layoutX="-1.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+                  <Rectangle fx:id="g" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="96.0" layoutX="57.0" layoutY="40.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+                  <Rectangle fx:id="d" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="96.0" layoutX="57.0" layoutY="140.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+                  <Rectangle fx:id="b" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="100.0" layoutX="114.0" layoutY="-12.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+                  <Rectangle fx:id="c" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="100.0" layoutX="115.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" width="14.0" />
+                  <Rectangle fx:id="a" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="96.0" layoutX="56.0" layoutY="-58.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+               </children>
+            </Group>
+
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
